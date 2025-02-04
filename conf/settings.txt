@@ -3,5 +3,5 @@
     "auth_token":"1141f1118e846a8cded980f3c1154fb5", 
     "Twilio Phone Number":"+13396751044", 
     "ngrok_url":"https://ac4d-146-70-182-6.ngrok-free.app", 
-    "bot_token":"7332544840:AAG8waMNO13UvEF4yCdQVQio15zaUj1ISjE"
+    "bot_token":"7851924299:AAEj70SJUOzeS5w-GHUpUiK-GiPV1CHRaSE"
 }
