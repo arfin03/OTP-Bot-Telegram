@@ -21,7 +21,7 @@ ngrok = raw_config['ngrok_url']
 phone_numz = raw_config['Twilio Phone Number']
 
 client = Client(account_sid, auth_token)
-bot = telebot.TeleBot(TOKEN)  
+bot = telebot.TeleBot(token)  
 
 def check_subscription(idkey):
     subscription = open('./conf/'+idkey+'/subs.txt', 'r').read()
