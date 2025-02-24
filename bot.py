@@ -62,7 +62,7 @@ Below are the basic commands of the bot and their descriptions:
 ⚙️ /clearset: Reset the current settings of the bot.  
 🎙️ /start: Start the bot and create your subscription information.  
 
-💡 For more information, please contact @YOUR_TG_NAME.  
+💡 For more information, please contact @Arfinvoldigoads.  
 """
     safe_text = help_text.replace("_", "\\_").replace("*", "\\*").replace("[", "\\[").replace("]", "\\]").replace("(", "\\(").replace(")", "\\)").replace(".", "\\.").replace("-", "\\-")
     
@@ -82,7 +82,7 @@ def subscription_info(pm):
     else:
         bot.send_message(
             pm.chat.id,
-            "❌ Subscription Status: Passive\n\nPlease contact @YOUR_TG_NAME to purchase a subscription.",
+            "❌ Subscription Status: Passive\n\nPlease contact @Arfinvoldigoads to purchase a subscription.",
             parse_mode="Markdown"
         )
 
@@ -105,7 +105,7 @@ def manage_subscription(pm):
 def extend_subscription(call):
     bot.send_message(
         call.message.chat.id,
-        "📞 Please contact @YOUR_TG_NAME to extend your subscription."
+        "📞 Please contact @Arfinvoldigoads to extend your subscription."
     )
 
 
@@ -238,7 +238,7 @@ def check_bisa(pm):
     if check_subscription(str(iduser)) == "ACTIVE":
         bot.send_message(pm.chat.id, f" 🔑 𝗬𝗼𝘂𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗶𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 : 𝘌𝘕𝘈𝘉𝘓𝘌𝘋 ✅\n\n 🆔 𝗬𝗼𝘂𝗿 𝗜𝗗 : {iduser}")
     else:
-        bot.send_message(pm.chat.id, f" 🔑 𝗬𝗼𝘂𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗶𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 : 𝘋𝘐𝘚𝘈𝘉𝘓𝘌𝘋 ❌\n\n 💬 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗼𝘄𝗻𝗲𝗿 𝘁𝗼 𝗯𝘂𝘆 𝗮𝗰𝗰𝗲𝘀𝘀 : @YOUR_TG_NAME\n\n 🆔 𝗬𝗼𝘂𝗿 𝗜𝗗 : {iduser}")    
+        bot.send_message(pm.chat.id, f" 🔑 𝗬𝗼𝘂𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗽𝘁𝗶𝗼𝗻 𝗶𝘀 𝗰𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆 : 𝘋𝘐𝘚𝘈𝘉𝘓𝘌𝘋 ❌\n\n 💬 𝗖𝗼𝗻𝘁𝗮𝗰𝘁 𝗼𝘄𝗻𝗲𝗿 𝘁𝗼 𝗯𝘂𝘆 𝗮𝗰𝗰𝗲𝘀𝘀 : @Arfinvoldigoads\n\n 🆔 𝗬𝗼𝘂𝗿 𝗜𝗗 : {iduser}")    
 
 @bot.message_handler(commands=['start'])
 def start_sz(pm):
@@ -246,7 +246,7 @@ def start_sz(pm):
     iduser = pm.from_user.id
     path = "./conf/"+str(iduser)
     isExist = os.path.exists(path)
-    bot.send_message(pm.chat.id, f" 🤖 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗢𝗧𝗣-𝗕𝗼𝘀𝘀!\n\n𝟏 𝐝𝐚𝐲 > 𝟐𝟓$\n𝟭 𝘄𝗲𝗲𝗸 > 𝟭𝟲𝟬$\n𝗟𝗶𝗳𝗲𝘁𝗶𝗺𝗲 > 𝟵𝟬𝟬$\n\n 🔗 𝗝𝗼𝗶𝗻 𝘂𝘀 > https://t.me/YOUR_CHANNEL_URL\n\n 🔑 𝘊𝘩𝘦𝘤𝘬 𝘺𝘰𝘶𝘳 𝘴𝘶𝘣𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 𝘣𝘺 𝘶𝘴𝘪𝘯𝘨 : /check\n\n\n𝙈𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 ❤️ 𝙛𝙤𝙧 𝙛𝙧𝙖𝙪𝙙𝙨𝙩𝙚𝙧𝙨, 𝙗𝙮 𝙛𝙧𝙖𝙪𝙙𝙨𝙩𝙚𝙧𝙨.\n𝙊𝙬𝙣𝙚𝙧 : @YOUR_TG_NAME")
+    bot.send_message(pm.chat.id, f" 🤖 𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 𝗢𝗧𝗣-𝗕𝗼𝘀𝘀!\n\n𝟏 𝐝𝐚𝐲 > 𝟐𝟓$\n𝟭 𝘄𝗲𝗲𝗸 > 𝟭𝟲𝟬$\n𝗟𝗶𝗳𝗲𝘁𝗶𝗺𝗲 > 𝟵𝟬𝟬$\n\n 🔗 𝗝𝗼𝗶𝗻 𝘂𝘀 > https://t.me/gc_animecommunity\n\n 🔑 𝘊𝘩𝘦𝘤𝘬 𝘺𝘰𝘶𝘳 𝘴𝘶𝘣𝘴𝘤𝘳𝘪𝘱𝘵𝘪𝘰𝘯 𝘣𝘺 𝘶𝘴𝘪𝘯𝘨 : /check\n\n\n𝙈𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 ❤️ 𝙛𝙤𝙧 𝙋𝙖𝙙𝙪𝙠𝙖 𝘼𝙣𝙤𝙨, 𝙗𝙮 𝙋𝙖𝙙𝙪𝙠𝙖 𝙖𝙣𝙤𝙨.\n𝙊𝙬𝙣𝙚𝙧 : @Arfinvoldigoads")
     if not isExist:
         os.makedirs(path)
         open(f'./conf/{iduser}/subs.txt', 'w').write(f'{today.strftime("%d/%m/%Y")}')
