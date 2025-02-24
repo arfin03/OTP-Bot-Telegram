@@ -14,9 +14,9 @@ from datetime import datetime
 
 raw_config = json.loads(open('./conf/settings.txt', 'r').read())
 
-token = raw_config['7474904752:AAHlPv2FyxRN8ELsWt8rsbvEJsoze9wLSeI']
-account_sid = raw_config['account_sid']
-auth_token = raw_config['auth_token']
+token = raw_config['7554092702:AAHu4oEpCgta7kFjtE44zC-lM4p5i8HdXfg']
+account_sid = raw_config['AC203f301c30e96726c20f5f4e5622656e']
+auth_token = raw_config['1b90416e736f15b6a4f3c49adbca1c8e']
 ngrok = raw_config['ngrok_url']
 phone_numz = raw_config['Twilio Phone Number']
 
